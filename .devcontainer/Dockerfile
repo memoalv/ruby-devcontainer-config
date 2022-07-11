@@ -12,7 +12,8 @@ RUN gem install \
   solargraph \
   rubocop \
   debug \
-  pry
+  pry \
+  rails
 
 # configure zsh inside container
 RUN chsh -s $(which zsh) root
